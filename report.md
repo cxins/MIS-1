@@ -60,7 +60,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(13)系统应该有很好的可扩展性，当采购未知产品时，可以新增产品类别以及产品名称。<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(14)实用灵活性。开发的系统要适合用户的需要，并能很好的满足各个终端用户使用的功能需求并及时发布，方便用户使用。<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(15)系统的建议可靠性，提供高效的运行环境和开发工具，使用可用重组技术，避免对系统复杂的基础结构的开发工作，减少繁杂琐碎的重复性代码编写，能够用比较容易掌握的技术，最少的投入和工作时间，开发出安全性好、实用可靠的系统。<br/>
-###3.2分析需求<br/>
+###3.2分析需求
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 根据前面获取的用户需求（外部行为），现在站在系统开发者的角度（内部行为）阐述这些需求。
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)库存预警系统：该模块的作用是给每一项新的产品都制定一个安全库存量，当现有库存低于或等于安全库存时，系统发出预警，提醒需要进行采购的产品。<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)保质期预警系统：该模块是服务于米、面等长期需求品，为保障产品的新鲜质量，需要监控产品的保质期，当距离保质期10天时，发出预警提示该产品接近保质期，注意使用时间。<br/>
@@ -68,8 +68,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)采购系统：该模块重要供采购人员使用，采购人员根据库存盘点人员留言进行采购，输入每日各项产品采购价格及采购量。<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)报表系统：<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.成本账单：根据采购系统中采购人员输入的各项产品采购价格和采购量，计算出每日开销，并定期汇总为月季报表。<br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.采购量表：根据采购人员每日采购各个产品数量，生成采购量表，以供参考。<br/>
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.余量表：根据库存盘点人员每日输入的使用量，自动生成各个产品在各食堂的现有剩余量表，以供参考。<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.采购量表：根据采购人员每日采购各个产品数量，生成采购量表，以供参考。<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.余量表：根据库存盘点人员每日输入的使用量，自动生成各个产品在各食堂的现有剩余量表，以供参考。<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)产品系统：不同季节采购不同产品时，需要及时上架下架某些产品，以提高系统的实用性。<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(7)留言系统：库存盘点人员需要根据每日盘点量给采购人员进行留言，当出现高价采购和大额采购时，采购人员也需要给后勤经理进行留言，获得批准权限。<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)配货系统：该模块主要供配货人员使用，配货人员收到库存盘点人员每日清算各食堂余量表和采购人员发送的采购量表，规划对各个食堂的分配量。<br/>
