@@ -30,7 +30,6 @@
 <tr><td>预警功能</td><td>库存以及保质期预警</td></tr>
 <tr><td>数据管理</td><td>对于一段时间的数据进行分析</td></tr>
 <tr><td>系统后台管理</td><td>管理员对网站的更新和维护</td></tr></table>
-
 ####2.3.3性能目标
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（1）准确可靠。要求各种数据准确无误<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（2）界面友好，用户使用过程中，方便用户的输入与浏览。<br/>
