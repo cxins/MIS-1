@@ -97,7 +97,6 @@
 <tr><td>查看出货统计</td><td>该用例描述了用户查看历史出货信息的统计的事件</td><td>系统管理员<td/></tr>
 <tr><td>查看库存</td><td>该用例描述了用户查看现在的产品的库存信息的事件</td><td>注册用户<td/></tr>
 <tr><td>更新库存</td><td>该用例描述了已注册的库存清点人员，更新系统内产品的库存信息的事件</td><td>注册用户<td/></tr>
-<tr><td>每天生成采购销售报表</td><td>该用例描述每天为采购、销售生成日报表。</td><td>时间（发起者）用户（外部接收者）<td/></tr>
 <tr><td>员工管理</td><td>该用例描述了用户对员工享有的权限进行管理的事件</td><td>系统管理员<td/></tr>
 <tr><td>数据备份</td><td>该用例描述了管理员对数据备份的事件</td><td>系统管理员<td/></tr>
 <tr><td>数据还原</td><td>该用例描述了管理员对数据恢复的事件</td><td>系统管理员<td/></tr>
@@ -110,13 +109,29 @@
 </table>
 3）	用例模型图<br/>
 用例图主要用来描述“用户、需求、系统功能单元”之间的关系。它展示了一个外部用户能够观察到的系统功能模型图。
-![用例模型图](https://github.com/09143793/MIS/blob/master/%E7%94%A8%E4%BE%8B%E6%A8%A1%E5%9E%8B%E5%9B%BE.png)
+
 
 4）	用例描述<br/>
 一个用例是一种规格说明。对用例的详细的说明是用例描述。可以将每个用例的事件流作为该用例的动作序列的单独文本描述。因此，事件流规定了在执行确定的用例时系统要完成的工作，事件流还规定了在执行用例是系统如何与参与者进行交互。下面是这个系统里几个主要的用例描述。<br/>
-![用例描述1](https://github.com/09143793/MIS/blob/master/xq.jpg)
-![用例描述2](https://github.com/09143793/MIS/blob/master/fx.jpg)
-![用例描述3](https://github.com/09143793/MIS/blob/master/sj.jpg)
+##3.系统的过程建模
+###1、上下文数据流图
+![食堂进销存系统的上下文数据流图](https://github.com/09143776/MIS/blob/master/课设11.PNG)
+###2、功能分解图
+![食堂进销存系统的功能分解图](https://github.com/09143776/MIS/blob/master/课设12.PNG)
+###3.系统的多个具体事件图
+![食堂进销存系统的事件图](https://github.com/09143776/MIS/blob/master/课设1.PNG)
+![食堂进销存系统的事件图](https://github.com/09143776/MIS/blob/master/课设2.PNG)
+![食堂进销存系统的事件图](https://github.com/09143776/MIS/blob/master/课设3.PNG)
+![食堂进销存系统的事件图](https://github.com/09143776/MIS/blob/master/课设4.PNG)
+![食堂进销存系统的事件图](https://github.com/09143776/MIS/blob/master/课设5.PNG)
+![食堂进销存系统的事件图](https://github.com/09143776/MIS/blob/master/课设6.PNG)
+![食堂进销存系统的事件图](https://github.com/09143776/MIS/blob/master/课设7.PNG)
+![食堂进销存系统的事件图](https://github.com/09143776/MIS/blob/master/课设8.PNG)
+###3.多个事件构造的系统图
+![食堂进销存系统的事件图](https://github.com/09143776/MIS/blob/master/课设9.PNG)
+###4.该系统的业务过程分析图
+![食堂进销存系统的事件图](https://github.com/09143776/MIS/blob/master/课设10.PNG)
+
 
 
 
